@@ -1,12 +1,11 @@
-
+import React from 'react';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
-const App = () => {
+function App()  {
   return (
-    <div className="App">
-
-     <h1>Hello World</h1> 
-     <h2>first app</h2>
+    <div>
+        <HelloWorld name="Buhle"/>
     </div>
   );
 }
