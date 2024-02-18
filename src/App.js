@@ -2,12 +2,25 @@ import React from 'react';
 import './App.css';
 import HelloWorld from './components/HelloWorld'
 
+import Header from './components/Header'
+
+
 function App()  {
   return (
-    <div>
+    <div style={styles}>
+     <Header/>
         <HelloWorld name="Buhle"/>
     </div>
   );
 }
 
-export default App;
+const styles = { 
+  backgroundColor: 'green', 
+  color: 'white', 
+  fontSize: '16px', 
+ }; 
+ 
+ 
+
+export default App
+
