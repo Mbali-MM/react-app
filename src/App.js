@@ -22,7 +22,7 @@ const styles = {
  }; 
 
  
-function button (){
+/**function button (){
   return (
     <div>
       <Button onClick={handleClick} style={{ backgroundColor: 'blue', color: 'white' }}>
@@ -31,7 +31,7 @@ function button (){
     </div>
   );
 
-  }
+  }*/
  
 
 export default App
