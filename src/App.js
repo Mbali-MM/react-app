@@ -1,14 +1,38 @@
-
+import React from 'react';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
+import Header from './components/Header'
+import button from './components/button'
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-
-     <h1>Hello World</h1> 
-     <h2>first app</h2>
-    </div>
+    <><div style={styles}>
+      <Header/>
+          <Header />
+      <divStyle />
+      <HelloWorld name="Buhle" />
+    </div> <p> Welcome to [Your App Name]! Buckle up for an incredible journey. We’ve got exciting features and exclusive content waiting just for you!”</p></>
   );
 }
 
-export default App;
+const styles = { 
+  backgroundColor: 'green', 
+  color: 'white', 
+  fontSize: '16px', 
+ }; 
+
+ 
+function button (){
+  return (
+    <div>
+      <Button onClick={handleClick} style={{ backgroundColor: 'blue', color: 'white' }}>
+        Click Me!
+      </Button>
+    </div>
+  );
+
+  }
+ 
+
+export default App
+
